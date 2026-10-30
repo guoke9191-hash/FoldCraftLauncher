@@ -310,7 +310,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/icon_start"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:textColor="#FFFFFFFF"
+                    android:textColor="#FFFFFFFF" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
