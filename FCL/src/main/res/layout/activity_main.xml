@@ -5,6 +5,7 @@
     android:id="@+id/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_version_card"
     android:transitionName="background"
     tools:context=".activity.MainActivity">
 
@@ -271,6 +272,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/start"
+                android:background="@drawable/bg_start_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
@@ -308,7 +310,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/icon_start"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:use_theme_color="true" />
+                    android:textColor="#FFFFFFFF"
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
