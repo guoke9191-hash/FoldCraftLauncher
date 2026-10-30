@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/background"
-    android:background="@drawable/bg_version_card"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:transitionName="background"
@@ -192,6 +191,7 @@
             <!-- 版本卡片：图标 + 版本名 + 组件摘要，点击进入版本选择，齿轮进入版本设置 -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/version_card"
+                android:background="@drawable/bg_version_card"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
